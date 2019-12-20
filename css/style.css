@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: 'Cera Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+  background-color: rgb(253, 253, 253);
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(253, 253, 253);
+  font-family: 'Cera Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+h1{
+ padding-top: 30px;
+ font-size: 60px;
+ font-family: 'Cera Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+p{
+  text-align: center;
+  color: #282C36;
+  padding-top: 0px;
+  font-family: sans-serif;
+   font-size: 20px;;
+    -webkit-font-smoothing: antialiased;
+}
+
+.topnav a {
+  color: #282C36;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Cera Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+.logo img {
+  margin-left: 3px;
+  float: left;
+  position: absolute;
+  margin:5px;
+}
+.topnav-right {
+  float: right;
+  position : absolute;
+  margin-left: 700px;
+
+.topnav a:hover {
+  background-color: #282C36;
+  color: #282C36;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+}
+.hello{
+  margin-right: 100px;
+}
+.email{
+  width: 50px;
+  pad
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  ding-left: 150px;
+}
