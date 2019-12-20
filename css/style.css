@@ -106,15 +106,21 @@ h2 {
   vertical-align: middle;
 }
 .tag1 {
-  margin-top: 50px;
+  padding-top: 100px;
   font-size: 20px;
   opacity: 0.4;
   margin-left: 500px;
 }
-.hell {
-  width: 75%;
-}
+
 hr {
-  width: 25%;
   opacity: 0.4;
+  margin-left: 10px;
+  width: 50%;
+}
+.oyy {
+  padding-top: 50px;
+
+  margin-left: 200px;
+  margin-right: 20px;
+  width: 70%;
 }
