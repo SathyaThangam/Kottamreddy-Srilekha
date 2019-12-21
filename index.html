@@ -58,7 +58,7 @@
         </p>
         <div class="bu">
           <input type="submit" value="Learn More" class="submit-button" />
-          <img src="img/icon.png" height="30px" width="30px" class="icon" />
+          <img src="img/icon.png" height="30px" width="45px" class="iconn" />
 
           <small class="tag" style="opacity: 0.4;margin: 4px; font-size: 20px;"
             >Watch the video</small
@@ -76,7 +76,7 @@
         </p>
         <div class="bu">
           <input type="submit" value="Learn More" class="submit-button" />
-          <img src="img/icon.png" height="30px" width="30px" class="icon" />
+          <img src="img/icon.png" height="30px" width="45px" class="iconn" />
 
           <small class="tag" style="opacity: 0.4;margin: 4px; font-size: 20px;"
             >Watch the video</small
@@ -94,6 +94,98 @@
         <img src="img/slack.svg" alt="" />
       </div>
       <hr {width:100%} />
+    </section>
+    <section>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="img/i1.png" style="width:100%" />
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="img/i2.png" style="width:100%" />
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="img/i3.png" style="width:100%" />
+        </div>
+      </div>
+      <br />
+
+      <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+
+      <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {
+            slideIndex = 1;
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex - 1].style.display = "block";
+          dots[slideIndex - 1].className += " active";
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+      </script>
+    </section>
+    <section class="hi">
+      <h3 align="center">Helping you do more with your lobby</h3>
+      <div class="box">
+        <h4>Make a great impression</h4>
+        <p align="left">
+          Look modern and polished with sleek ipad sign-in and a clutter-free
+          lobby
+        </p>
+        <div class="iicon">
+          <img src="img/im1.png" alt="" />
+        </div>
+      </div>
+      <div class="box">
+        <h4>Enhance Security</h4>
+        <p align="left">
+          To Protect your peopl,property and ideas,you need to know who's
+          onsite.
+        </p>
+        <div class="iicon">
+          <img src="img/im2.png" alt="" />
+        </div>
+      </div>
+      <div class="box">
+        <h4>Meet compliance regulations</h4>
+        <p align="left">
+          Support your compliance efforts with features for
+          recordkeeping,badging and beyond.
+        </p>
+        <div class="iicon">
+          <img src="img/im3.png" alt="" />
+        </div>
+      </div>
+      <div class="box">
+        <h4>Boost office efficiency</h4>
+        <p align="left">
+          Automate daily tasks like alerting employees about their guests and
+          packages.
+        </p>
+        <div class="iicon">
+          <img src="img/im4.png" alt="" />
+        </div>
+      </div>
     </section>
   </body>
 </html>
