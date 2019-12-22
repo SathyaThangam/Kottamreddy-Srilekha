@@ -474,8 +474,8 @@ ul {
 }
 
 .navbar a:hover,
-.dropdown:hover .dropbtn {
-  background-color: red;
+. {
+  color: red;
 }
 
 .dropdown-content {
@@ -502,4 +502,25 @@ ul {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+.j {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  margin-top: 10px;
+
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.j:hover {
+  background-color: #ddd;
+}
+.i {
+  width: 10%;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.k {
+  margin-left: 30px;
 }
