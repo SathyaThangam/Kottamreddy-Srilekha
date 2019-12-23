@@ -3,6 +3,7 @@ body {
   font-family: "Cera Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   background-color: rgb(253, 253, 253);
+  padding: 0;
 }
 
 .topnav {
@@ -10,6 +11,8 @@ body {
   background-color: rgb(253, 253, 253);
   font-family: "Cera Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
+  margin: 0px;
+  padding-top: 0px;
 }
 h1 {
   padding-top: 30px;
@@ -46,11 +49,13 @@ p {
   font-family: "Cera Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
 }
+
 .logo img {
-  margin-left: 3px;
+  margin-top: 0px;
+  padding-top: 0px;
   float: left;
-  position: absolute;
-  margin: 5px;
+  position: relative;
+  padding: 5px;
 }
 .topnav-right {
   float: right;
@@ -258,13 +263,6 @@ h4 {
 .iicon {
   padding-left: 440px;
 }
-
-body {
-  font-family: Helvetica, sans-serif;
-  padding: 5%;
-  text-align: center;
-}
-
 #slideshow {
   overflow: hidden;
   height: 510px;
@@ -511,11 +509,10 @@ ul {
   font-size: 16px;
   color: #282c36;
   text-align: center;
-  padding: 14px 16px;
+
   text-decoration: none;
   font-size: 16px;
   font-weight: 800px;
-  margin-right: 15px;
 }
 
 .dropdown {
