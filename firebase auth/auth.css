@@ -1,0 +1,22 @@
+input {
+  width: 221px;
+  height: 38px;
+}
+.signup {
+  padding: 10px 10px 10px 10px;
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+}
+.signin {
+  padding: 10px 10px 10px 10px;
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+}
+.block {
+  margin: 116px 0px 22px 415px;
+}
+.block1 {
+  padding-bottom: 30px;
+}
