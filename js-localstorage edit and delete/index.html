@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <title>
+      Admin js
+    </title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body onload="complete()">
+    <div class="nav">
+      <div class="block1">
+        <button type="button" class="admin" id="admin">
+          Admin
+        </button>
+        <a href="table.html">
+          <button type="button" class="list" id="list">
+            List
+          </button>
+        </a>
+      </div>
+    </div>
+    <div class="block2">
+      <div class="b1">
+        <div class="sblock">
+          <span>Product</span>
+          <input
+            type="text"
+            name="fname"
+            placeholder="Product"
+            class="product"
+            id="product"
+          />
+        </div>
+        <div class="sblock">
+          <span>Desc</span>
+          <input
+            type="text"
+            name="fname"
+            placeholder="Desc"
+            class="desc"
+            id="desc"
+          />
+        </div>
+
+        <div class="sblock">
+          <span>QTY</span>
+          <input
+            type="text"
+            name="fname"
+            placeholder="Quantity"
+            class="qty"
+            id="qty"
+          />
+        </div>
+        <div class="sblock">
+          <span>Price</span>
+          <input
+            type="text"
+            name="fname"
+            placeholder="Price"
+            class="price"
+            id="price"
+          />
+        </div>
+      </div>
+      <button type="button" class="save" id="but" onclick="add()">Save</button>
+    </div>
+    <div class="table" id="btable"></div>
+  </body>
+  <script type="text/javascript" src="index.js"></script>
+  <script type="text/javascript" src="table.js"></script>
+</html>
