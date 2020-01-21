@@ -1,0 +1,102 @@
+.fullnav {
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+}
+.nav {
+  display: flex;
+  width: 90%;
+  padding-left: 40px;
+}
+.left {
+  width: 30%;
+  position: relative;
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+.right {
+  float: left;
+  width: 45%;
+  position: absolute;
+  padding-left: 60%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+.button1 {
+  border-color: black;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.button2 {
+  border-color: red;
+  color: red;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 10px;
+  color: #000000;
+  -webkit-text-decoration: none;
+  line-height: 1;
+  font-weight: 200;
+}
+
+li a:hover {
+  color: white;
+  background-color: black;
+}
+section {
+  padding-top: 20px;
+  background-color: lightgray;
+}
+
+.col1 {
+  padding-left: 50px;
+  width: 50%;
+}
+.hello {
+  background-color: black;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+}
+.heading {
+  font-size: 40px;
+}
+.sheading {
+  padding-bottom: 15px;
+}
+.hello2 {
+  background-color: white;
+  margin-top: 10px;
+  border-top: 3px solid gray;
+  padding-top: 10px;
+  padding-left: 15px;
+}
+.hello2 a {
+  color: green;
+  text-decoration: none;
+}
+.hello2p {
+  font-weight: normal;
+  font-size: 18px;
+}

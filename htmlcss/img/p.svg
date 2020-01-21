@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="20px" viewBox="0 0 14 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Phone icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.000604560507 0.000253451198 13.7499651 0.000253451198 13.7499651 20 0.000604560507 20"></polygon>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Footer/Phone-number" transform="translate(-208.000000, -228.000000)">
+            <g id="Phone-number" transform="translate(208.000000, 200.000000)">
+                <g id="Phone-icon" transform="translate(0.000000, 28.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M4.36525,11.261625 C3.71525,9.914125 2.9815,7.806625 2.8665,6.566625 C2.8015,5.849125 3.35025,5.207875 4.1165,5.090375 L4.71025,4.944125 C6.499,4.474125 7.299,3.114125 5.549,0.667875 C4.8865,-0.260875 3.52775,0.050375 3.52775,0.050375 C2.36025,0.347875 1.34525,1.072875 0.82525,2.087875 C-0.4735,4.621625 -0.26225,8.439125 1.63025,12.369125 C3.5215,16.299125 6.45525,19.014125 9.37275,19.840375 C10.5415,20.171625 11.809,19.972875 12.83525,19.381625 C12.83525,19.381625 14.0015,18.669125 13.70025,17.594125 C12.9065,14.761625 11.2715,14.386625 9.689,15.282875 L9.1715,15.587875 C8.559,16.026625 7.67275,15.967875 7.14025,15.440375 C6.2165,14.526625 5.014,12.609125 4.36525,11.261625" id="Fill-1" fill="#272B36" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
