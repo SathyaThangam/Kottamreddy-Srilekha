@@ -8,8 +8,8 @@
   <body onload="complete()">
     <div class="nav">
       <div class="block1">
-        <button type="button" class="admin" id="admin">
-          Admin
+        <button type="button" class="logout" id="logout" onclick="logout()">
+          Logout
         </button>
         <a href="table.html">
           <button type="button" class="list" id="list">
@@ -61,11 +61,22 @@
             id="price"
           />
         </div>
+        <div class="im">
+          <input
+            type="file"
+            accept="image/*"
+            onchange="openFile(event)"
+            id="full"
+          /><br />
+
+          <img id="output" class="imm" src="#" style="display: block" />
+        </div>
       </div>
-      <button type="button" class="save" id="but" onclick="add()">Save</button>
+      <button type="button" class="save" id="but" onclick="add1()">Save</button>
     </div>
     <div class="table" id="btable"></div>
   </body>
   <script type="text/javascript" src="index.js"></script>
   <script type="text/javascript" src="table.js"></script>
+  <script type="text/javascript" src="usertable.js"></script>
 </html>

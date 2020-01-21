@@ -1,4 +1,4 @@
-.admin,
+.logout,
 .list,
 .save,
 .delete {
@@ -14,6 +14,7 @@
 .block1 {
   float: right;
 }
+
 .b1 {
   display: flex;
   width: 100%;
@@ -38,4 +39,9 @@ input[type="text"] {
 li {
   list-style-type: none;
   margin: 40px 40px 40px 40px;
+}
+.imm {
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
 }

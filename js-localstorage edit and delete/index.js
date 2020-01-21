@@ -1,27 +1,52 @@
 function complete() {
-  var product = document.getElementById("product").value;
-  var desc = document.getElementById("desc").value;
-  var qty = document.getElementById("qty").value;
-  var price = document.getElementById("price").value;
+  if (localStorage.getItem("admin") == null) {
+    array = [];
+  } else {
+    array = JSON.parse(localStorage.getItem("admin"));
+  }
 
-  array = JSON.parse(localStorage.getItem("admin"));
   for (i = 0; i < array.length; i++) {
     if (array[i].uid == "world") {
       document.getElementById("product").value = array[i].product;
       document.getElementById("desc").value = array[i].desc;
       document.getElementById("qty").value = array[i].qty;
       document.getElementById("price").value = array[i].price;
+
+      document.getElementById("output").src = array[i].path;
     }
   }
 }
+var openFile = function(event) {
+  var reader = new FileReader();
 
-function add() {
+  reader.onload = function() {
+    var dataURL = reader.result;
+
+    var output = document.getElementById("output");
+    output.src = dataURL;
+  };
+
+  reader.readAsDataURL(document.getElementById("full").files[0]);
+};
+
+function add1() {
   var product = document.getElementById("product").value;
   var desc = document.getElementById("desc").value;
   var qty = document.getElementById("qty").value;
   var price = document.getElementById("price").value;
+  var path = document.getElementById("output").src;
   var uid = "hello";
+  var input = document.getElementById("full");
+  console.log(input);
+  var reader = new FileReader();
 
+  reader.onload = function() {
+    var dataURL = reader.result;
+
+    var output = document.getElementById("output");
+    output.src = dataURL;
+  };
+  console.log("output", output.src);
   if (localStorage.getItem("admin") == null) {
     array = [];
   } else {
@@ -35,7 +60,8 @@ function add() {
       product == array[i].product &&
       desc == array[i].desc &&
       qty == array[i].qty &&
-      price == array[i].price
+      price == array[i].price &&
+      path == array[i].path
     ) {
       code1 = 1;
     }
@@ -51,7 +77,8 @@ function add() {
       desc: desc,
       qty: qty,
       price: price,
-      uid: uid
+      uid: uid,
+      path: output.src
     });
     localStorage.setItem("admin", JSON.stringify(array));
     alert("Success beta!!!");
@@ -63,6 +90,8 @@ function add() {
           array[i].desc = document.getElementById("desc").value;
           array[i].qty = document.getElementById("qty").value;
           array[i].price = document.getElementById("price").value;
+          array[i].path = document.getElementById("output").src;
+
           array[i].uid = "hello";
           localStorage.setItem("admin", JSON.stringify(array));
         }
@@ -75,4 +104,13 @@ function add() {
   document.getElementById("desc").value = "";
   document.getElementById("qty").value = "";
   document.getElementById("price").value = "";
+  document.getElementById("output").src = "";
+}
+function logout() {
+  var r = confirm("Logout???");
+  if (r == true) {
+    window.location.replace("main.html");
+  } else {
+    window.location.replace("index.html");
+  }
 }
